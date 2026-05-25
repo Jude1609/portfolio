@@ -10,8 +10,30 @@ interface CertImage {
   data: string;
 }
 
+const certFiles = [
+  "1723009479089.jpeg",
+  "1738137258220.jpeg",
+  "1745598916629.jpeg",
+  "1745599314489.jpeg",
+  "1754019545091.jpeg",
+  "1756445566310.jpeg",
+  "1768180450411 (1).jpeg",
+  "1768180450715.jpeg",
+  "1768180450780.jpeg",
+  "1768180450787 (1).jpeg",
+  "1768180451424.jpeg",
+  "1768180451446.jpeg",
+  "1768180451857.jpeg",
+  "1768180452390.jpeg",
+  "1770901446111.jpeg",
+  "1773631158753.jpeg",
+  "1776254618430.jpeg",
+];
+
 function Certificates() {
-  const [certs, setCerts] = useState<CertImage[]>([]);
+  const [certs, setCerts] = useState<CertImage[]>(
+    certFiles.map((f) => ({ id: f, data: "/certificates/" + f }))
+  );
   const inputRef = useRef<HTMLInputElement>(null);
 
   const addFiles = (e: React.ChangeEvent<HTMLInputElement>) => {
