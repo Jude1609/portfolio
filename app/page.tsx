@@ -4,6 +4,7 @@ import { Skills } from "@/components/sections/Skills";
 import { Projects } from "@/components/sections/Projects";
 import { Experience } from "@/components/sections/Experience";
 import { Testimonials } from "@/components/sections/Testimonials";
+import { Certificates } from "@/components/sections/Certificates";
 import { Contact } from "@/components/sections/Contact";
 import { client } from "@/sanity/client";
 import { projectsQuery, testimonialsQuery, experiencesQuery } from "@/sanity/queries";
@@ -31,6 +32,7 @@ export default async function Home() {
       <Projects projects={projects as any} />
       <Experience experiences={experiences as any} />
       <Testimonials testimonials={testimonials as any} />
+      <Certificates />
       <Contact />
     </>
   );
