@@ -63,6 +63,15 @@ function Contact() {
           <MapPin size={14} />
           <span>Tamil Nadu, India</span>
         </div>
+
+        <div className="mt-10 text-center">
+          <img
+            src="/qr-portfolio.png"
+            alt="Portfolio QR"
+            className="mx-auto h-28 w-28 rounded-xl border border-border bg-[var(--bg-secondary)] p-2"
+          />
+          <p className="mt-2 text-xs text-text-muted">Scan to view portfolio online</p>
+        </div>
       </motion.div>
     </Section>
   );

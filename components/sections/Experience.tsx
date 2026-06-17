@@ -6,16 +6,36 @@ import { Section } from "@/components/ui/Section";
 const fallbackExperience = [
   {
     _id: "1",
-    role: "Robotics Enthusiast & Workshop Presenter",
-    company: "SRM TRP Engineering College",
+    role: "Integration Engineer",
+    company: "Corelyn Robotics",
     description:
-      "Presented workshops on Industrial Automation & Robotics, covering sensor integration (HC-SR04, IMU), real-time decision making with Raspberry Pi Pico, and motor control via L298N. Focused on bridging the gap between theory and practical application in Smart Manufacturing 4.0.",
-    startDate: "2024-01",
+      "Building and integrating industrial robotics systems for manufacturing automation. Responsible for system integration, programming, and deployment of robotic solutions in production environments.",
+    startDate: "2025",
     endDate: null,
     current: true,
   },
   {
     _id: "2",
+    role: "Power Systems Engineer",
+    company: "Transista Startup — TVS AMR Project",
+    description:
+      "Maintained all power distribution and power electronic controllers for autonomous mobile robot platforms. Worked on the TVS AMR project ensuring reliable power delivery, motor controller integration, and system-level electrical architecture.",
+    startDate: "2024",
+    endDate: "2025",
+    current: false,
+  },
+  {
+    _id: "3",
+    role: "Robotics Enthusiast & Workshop Presenter",
+    company: "SRM TRP Engineering College",
+    description:
+      "Presented workshops on Industrial Automation & Robotics, covering sensor integration (HC-SR04, IMU), real-time decision making with Raspberry Pi Pico, and motor control via L298N. Focused on bridging the gap between theory and practical application in Smart Manufacturing 4.0.",
+    startDate: "2024",
+    endDate: null,
+    current: true,
+  },
+  {
+    _id: "4",
     role: "Industrial Visit — Testing & Validation",
     company: "TÜV SÜD",
     description:
